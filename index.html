@@ -5,7 +5,7 @@
 <title>AGC Faucet</title>
 
 <!-- Load ethers trước -->
-<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
 
 <style>
 body{
@@ -62,8 +62,7 @@ let provider;
 let signer;
 let userAddress;
 
-const contractAddress = "ĐỊA_CHỈ_CONTRACT_CỦA_BẠN";
-
+const contractAddress = "0x94f6b5d4a5972116FF5B5161A462fe616BFCd115";
 const abi = [
 "function claim() public",
 "function lastClaim(address) view returns(uint256)"
